@@ -1,0 +1,27 @@
+{
+  "name": "authentication-app",
+  "version": "1.0.0",
+  "description": "This App is having all the features necessary to secure an app with authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "MD ARIF",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.5.0",
+    "nodemailer": "^6.9.5",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "path": "^0.12.7"
+  }
+}
